@@ -12,17 +12,19 @@ public:
     void name(std::string&);
     int level() const;
     void level(int);
-    void changeSpeed(int);
+    int speed() const;
+    void speed(int);
     int health() const;
     int attack() const;
-    void takeDamage(int);
     int damage() const;
-
+    void takeDamage(int); 
+    
 private:
     std::string _name;
     int _level;
+    int _speed;
     int _health;
     int _attack;
     int _damage;
 
-};
+}; 
