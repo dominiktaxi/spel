@@ -2,9 +2,8 @@
 class Effect
 {
 public:
-	Effect( int effect );
+	Effect() = default;
 	virtual void apply(Player&) = 0;
 protected:
-	int _effect;
 };
 

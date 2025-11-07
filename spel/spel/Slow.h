@@ -7,6 +7,6 @@ public:
 	void apply(Player&) override;
 
 private:
-	
+	int _slow
 };
 

@@ -1,8 +1,8 @@
 #include "Slow.h"
 
-Slow::Slow(int effect) : Effect(effect) {}
+Slow::Slow(int slow) : _slow(slow) {}
 
 void Slow::apply(Player& player)
 {
-	player.changeSpeed( _effect );
+	player.changeSpeed( _slow );
 }
