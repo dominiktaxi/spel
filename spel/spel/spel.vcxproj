@@ -123,6 +123,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Burn.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="Slow.cpp" />
+    <ClCompile Include="Spel.cpp" />
+    <ClCompile Include="utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Burn.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="Slow.h" />
+    <ClInclude Include="utils.h" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="spel.cpp" />
   </ItemGroup>
