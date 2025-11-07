@@ -134,6 +134,11 @@
     <ClInclude Include="Effect.h" />
     <ClInclude Include="Slow.h" />
     <ClInclude Include="utils.h" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="spel.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
