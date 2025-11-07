@@ -8,13 +8,15 @@ public:
         : _name(name), _level(level), _health(health), _attack(attack), _damage(damage) {
     }
 
-    std::string name() const { return _name; }
-    int level() const { return _level; }
-	void changeSpeed(int speed) { /* Implementation for changing speed */ }
-    int health() const { return _health; }
-    int attack() const { return _attack; }
-	void takeDamage(int damage) { _health -= damage; }
-	int damage() const { return _damage; }
+    std::string name() const;
+    void name(std::string&);
+    int level() const;
+    void level(int);
+    void changeSpeed(int);
+    int health() const;
+    int attack() const;
+    void takeDamage(int);
+    int damage() const;
 
 private:
     std::string _name;
